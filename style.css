@@ -1,9 +1,40 @@
-h1{
-    color:black;
-    font-size: 100px;
-    text-align:center
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-#boo {
-    margin: 100px;
+header {
+    background-color: red ;
+    color : white;
+    padding : 22px;
+    text-align : center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white ;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    padding: 10px;
 }
